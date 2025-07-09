@@ -71,6 +71,7 @@ mixed_quotes = 'This has "mixed" quotes'
 def add_numbers(a: int, b: int) -> int:
     return a + b
 
+
 result = add_numbers("5", 10)  # Passing string instead of int
 wrong_assignment: int = "hello"  # Assigning string to int variable
 
