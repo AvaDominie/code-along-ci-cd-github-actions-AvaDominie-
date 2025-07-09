@@ -24,6 +24,6 @@ jobs:
         pip install -r requirements-dev.txt
 
     - name: Check code formatting
-      run:
+      run: |
         black src/ tests/
       
